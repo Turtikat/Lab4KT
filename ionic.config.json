@@ -1,0 +1,7 @@
+{
+  "name": "Lab4KT",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "react-vite"
+}
