@@ -1,0 +1,18 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>Kirjautuminen</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content class="ion-padding">
+  <ion-item>
+    <ion-label position="floating">Sähköposti</ion-label>
+    <ion-input [(ngModel)]="email" type="email"></ion-input>
+  </ion-item>
+  <ion-item>
+    <ion-label position="floating">Salasana</ion-label>
+    <ion-input [(ngModel)]="password" type="password"></ion-input>
+  </ion-item>
+  <ion-button expand="block" (click)="login()">Kirjaudu</ion-button>
+  <ion-button expand="block" fill="clear" (click)="register()">Luo tunnus</ion-button>
+</ion-content>
